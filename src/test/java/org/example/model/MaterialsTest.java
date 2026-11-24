@@ -14,6 +14,6 @@ public class MaterialsTest {
         double actualDensity = steel.getDensityKgM3();
         double actualEfficiency = steel.getEfficiency();
         Assertions
-                .assertTrue(actualEfficiency > 0, "эффективность  быть больше нуля");
+                .assertTrue(actualEfficiency > 0, "эффективность  быть больше нуляz sdfgas");
     }
 }
