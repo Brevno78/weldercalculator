@@ -44,5 +44,4 @@ public class MaterialsTest {
         Assertions
                 .assertEquals(0.70, aluminiumEfficiency, 0.01, "КПД наплавки алюминия должна быть равна 0.70");
     }
-//    починить тесты и дженкинс
 }
