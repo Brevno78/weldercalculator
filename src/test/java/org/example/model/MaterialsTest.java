@@ -14,6 +14,8 @@ public class MaterialsTest {
         double actualEfficiency = steel.getEfficiency();
         Assertions
                 .assertTrue(actualEfficiency > 0, "эффективность не может быть больше нуля");
+        Assertions
+                .assertTrue(actualDensity == 7850, "Стандартная плотность углеродистой стали должна быть равна 7850");
 
     }
 //    починить тесты и дженкинс
