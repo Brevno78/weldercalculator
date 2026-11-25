@@ -1,7 +1,6 @@
 package org.example.model;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 
@@ -14,6 +13,8 @@ public class MaterialsTest {
         double actualDensity = steel.getDensityKgM3();
         double actualEfficiency = steel.getEfficiency();
         Assertions
-                .assertTrue(actualEfficiency > 0, "эффективность  быть больше нуляz sdfgas");
+                .assertTrue(actualEfficiency > 0, "эффективность не может быть больше нуля");
+
     }
+//    починить тесты и дженкинс
 }
